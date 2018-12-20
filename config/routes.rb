@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :states
+  resources :states, :activities
 
   get 'index' => 'adventures#index'
   get 'about' => 'adventures#about'

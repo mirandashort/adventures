@@ -12,7 +12,7 @@
 
 <p>
   <strong>Population:</strong>
-  <%= @state.population %>
+  <%= number_to_human(@state.population) %>
 </p>
 
 <%= link_to 'Edit', edit_state_path(@state) %> |

@@ -16,7 +16,7 @@
 
  body, td {
    font-family: monospace;
-   background: url('population.jpg') fixed;
+   /* background: url('population.jpg') fixed; */
    background-repeat: repeat-x;
    background-position-y: bottom;
  }
