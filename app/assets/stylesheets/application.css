@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ body, td {
+   font-family: monospace;
+   background: url('population.jpg') fixed;
+   background-repeat: repeat-x;
+   background-position-y: bottom;
+ }
+
+ th {
+   text-align: left;
+ }
